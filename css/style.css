@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/* reset` */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {cursor: pointer;}
+
+table {width: 100%;}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+.inner {width: 1200px; margin: auto;}
+header {height: 100px; display: flex; align-items: center; position: relative;}
+header h1 a {display: block; }
+nav {position: absolute; right: 0;}
+nav>ul {display: flex;}
+nav>ul>li>a {width: 100px; padding:16px 0; text-align: center;}
+.sub {display: none;}
+.slide {overflow: hidden;}
+.slide ul {
+    display: flex;
+    width: 3600px;
+}
+.slide ul li{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.slide ul li a {
+    height: 100%;
+}
+.s1 {
+    background: url(../img/slide1.png) no-repeat center/cover;
+}
+.s2 {
+    background: url(../img/slide2.png) no-repeat center/cover;
+}
+.s3 {
+    background: url(../img/slide3.png) no-repeat center/cover;
+}
+.slide ul li h2 {
+    padding: 10px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contents {
+    height: 200px;
+}
+
+.con1 {
+    width: 400px;
+}
+
+.tap {
+    display: flex;
+}
+
+.tap a {
+    padding: 8px;
+    background: #6c4444;
+    color: white;
+   
+}
+
+.tap a.on {
+    background: #f1bbbb;
+    color: black;
+}
+
+.tap_con {
+    position: relative;
+    height: 140px;
+}
+
+.tap_con > div {
+    position: absolute;
+}
+
+.notice_con {
+    padding: 12px;
+    background: #f1bbbb;
+    height: 100%;
+    width: 100%;
+}
+
+.notice_con ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.notice_con ul li p {
+    width: 280px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.gla_con {
+    background: #f1bbbb;
+    display: none;
+}
+
+.gla_con ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{height: 100px;}
+

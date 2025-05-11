@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+img {
+    display: block;
+}
+
+aside {
+    width: 200px;
+    height: 850px;
+    background-color: aliceblue;
+}
+
+.content {
+    background-color: aquamarine;
+    width: calc(100% - 200px);
+}
