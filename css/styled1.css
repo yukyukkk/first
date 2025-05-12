@@ -21,6 +21,27 @@ aside {
     background-color: aliceblue;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: bisque;
+    margin-bottom: 20px;
+}
+
+nav {
+    padding: 0 12px;
+}
+
+nav > ul > li > a {
+    font-size: 20px;
+    padding: 16px 12px;
+    display: block;
+    background-color: #9e4343;
+    color: #fff;
+}
+
 .content {
     background-color: aquamarine;
     width: calc(100% - 200px);
