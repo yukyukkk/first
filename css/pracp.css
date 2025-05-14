@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    color: #222
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 12px;
+    width: 100px;
+    background-color: #4f2db7;
+}
+
+nav > ul > li > a:hover {
+    color: white;
+    background-color: #182ba7;
+}
+
+.sub {display: none;}
+
+.sub li a {
+    background-color: rgb(120, 120, 120);
+    display: block;
+    padding: 12px;
+    color: white;
+}
+
+.sub li a:hover {
+    background-color: rgb(49, 49, 49);
+}
